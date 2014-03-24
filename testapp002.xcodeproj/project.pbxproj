@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68981DA018DB48FB0003E09B /* Stats.m in Sources */ = {isa = PBXBuildFile; fileRef = 68981D9F18DB48FB0003E09B /* Stats.m */; };
+		68981DA318DB5CC40003E09B /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68981DA218DB5CC40003E09B /* CustomCell.xib */; };
 		68F212D818D7DE5C004402B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F212D718D7DE5C004402B4 /* Foundation.framework */; };
 		68F212DA18D7DE5C004402B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F212D918D7DE5C004402B4 /* CoreGraphics.framework */; };
 		68F212DC18D7DE5C004402B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F212DB18D7DE5C004402B4 /* UIKit.framework */; };
@@ -22,6 +24,12 @@
 		68F212F918D7DE5C004402B4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F212DD18D7DE5C004402B4 /* CoreData.framework */; };
 		68F2130118D7DE5C004402B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68F212FF18D7DE5C004402B4 /* InfoPlist.strings */; };
 		68F2130318D7DE5C004402B4 /* testapp002Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F2130218D7DE5C004402B4 /* testapp002Tests.m */; };
+		68F2131518D8699C004402B4 /* chikuwakuIntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F2131418D8699C004402B4 /* chikuwakuIntroductionViewController.m */; };
+		68F2132C18D89527004402B4 /* chikuwakuVideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F2132B18D89527004402B4 /* chikuwakuVideoListViewController.m */; };
+		68F2133018D898D1004402B4 /* You_Gave_Me_Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68F2132E18D898D1004402B4 /* You_Gave_Me_Love.mp3 */; };
+		68F2133118D898D1004402B4 /* You_Gave_Me_Love.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 68F2132F18D898D1004402B4 /* You_Gave_Me_Love.mp4 */; };
+		68F2133318D8993C004402B4 /* you_gave_me_love.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F2133218D8993C004402B4 /* you_gave_me_love.png */; };
+		68F2133718D9116B004402B4 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F2133518D9116B004402B4 /* CustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68981D9E18DB48FB0003E09B /* Stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stats.h; sourceTree = "<group>"; };
+		68981D9F18DB48FB0003E09B /* Stats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stats.m; sourceTree = "<group>"; };
+		68981DA218DB5CC40003E09B /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		68F212D418D7DE5C004402B4 /* testapp002.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testapp002.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F212D718D7DE5C004402B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		68F212D918D7DE5C004402B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +64,15 @@
 		68F212FE18D7DE5C004402B4 /* testapp002Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testapp002Tests-Info.plist"; sourceTree = "<group>"; };
 		68F2130018D7DE5C004402B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		68F2130218D7DE5C004402B4 /* testapp002Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testapp002Tests.m; sourceTree = "<group>"; };
+		68F2131318D8699C004402B4 /* chikuwakuIntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chikuwakuIntroductionViewController.h; sourceTree = "<group>"; };
+		68F2131418D8699C004402B4 /* chikuwakuIntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chikuwakuIntroductionViewController.m; sourceTree = "<group>"; };
+		68F2132A18D89527004402B4 /* chikuwakuVideoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chikuwakuVideoListViewController.h; sourceTree = "<group>"; };
+		68F2132B18D89527004402B4 /* chikuwakuVideoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chikuwakuVideoListViewController.m; sourceTree = "<group>"; };
+		68F2132E18D898D1004402B4 /* You_Gave_Me_Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = You_Gave_Me_Love.mp3; sourceTree = "<group>"; };
+		68F2132F18D898D1004402B4 /* You_Gave_Me_Love.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = You_Gave_Me_Love.mp4; sourceTree = "<group>"; };
+		68F2133218D8993C004402B4 /* you_gave_me_love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = you_gave_me_love.png; sourceTree = "<group>"; };
+		68F2133418D9116B004402B4 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		68F2133518D9116B004402B4 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68981DA118DB49020003E09B /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				68981D9E18DB48FB0003E09B /* Stats.h */,
+				68981D9F18DB48FB0003E09B /* Stats.m */,
+			);
+			name = Stats;
+			sourceTree = "<group>";
+		};
 		68F212CB18D7DE5C004402B4 = {
 			isa = PBXGroup;
 			children = (
@@ -117,8 +146,12 @@
 			children = (
 				68F212E818D7DE5C004402B4 /* chikuwakuAppDelegate.h */,
 				68F212E918D7DE5C004402B4 /* chikuwakuAppDelegate.m */,
+				68981DA118DB49020003E09B /* Stats */,
+				68F2130F18D7DEBC004402B4 /* View */,
+				68F2131B18D87BA6004402B4 /* Cell */,
 				68F212EE18D7DE5C004402B4 /* Images.xcassets */,
 				68F212EB18D7DE5C004402B4 /* testapp002.xcdatamodeld */,
+				68F2132D18D89874004402B4 /* Sample Data */,
 				68F212E018D7DE5C004402B4 /* Supporting Files */,
 			);
 			path = testapp002;
@@ -151,6 +184,38 @@
 				68F212FF18D7DE5C004402B4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68F2130F18D7DEBC004402B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				68F2131318D8699C004402B4 /* chikuwakuIntroductionViewController.h */,
+				68F2131418D8699C004402B4 /* chikuwakuIntroductionViewController.m */,
+				68F2132A18D89527004402B4 /* chikuwakuVideoListViewController.h */,
+				68F2132B18D89527004402B4 /* chikuwakuVideoListViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		68F2131B18D87BA6004402B4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				68F2133418D9116B004402B4 /* CustomCell.h */,
+				68F2133518D9116B004402B4 /* CustomCell.m */,
+				68981DA218DB5CC40003E09B /* CustomCell.xib */,
+			);
+			name = Cell;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		68F2132D18D89874004402B4 /* Sample Data */ = {
+			isa = PBXGroup;
+			children = (
+				68F2133218D8993C004402B4 /* you_gave_me_love.png */,
+				68F2132E18D898D1004402B4 /* You_Gave_Me_Love.mp3 */,
+				68F2132F18D898D1004402B4 /* You_Gave_Me_Love.mp4 */,
+			);
+			name = "Sample Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +294,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68981DA318DB5CC40003E09B /* CustomCell.xib in Resources */,
 				68F212E418D7DE5C004402B4 /* InfoPlist.strings in Resources */,
+				68F2133318D8993C004402B4 /* you_gave_me_love.png in Resources */,
 				68F212EF18D7DE5C004402B4 /* Images.xcassets in Resources */,
+				68F2133018D898D1004402B4 /* You_Gave_Me_Love.mp3 in Resources */,
+				68F2133118D898D1004402B4 /* You_Gave_Me_Love.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +319,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				68F212ED18D7DE5C004402B4 /* testapp002.xcdatamodeld in Sources */,
+				68F2132C18D89527004402B4 /* chikuwakuVideoListViewController.m in Sources */,
 				68F212E618D7DE5C004402B4 /* main.m in Sources */,
+				68F2133718D9116B004402B4 /* CustomCell.m in Sources */,
+				68981DA018DB48FB0003E09B /* Stats.m in Sources */,
 				68F212EA18D7DE5C004402B4 /* chikuwakuAppDelegate.m in Sources */,
+				68F2131518D8699C004402B4 /* chikuwakuIntroductionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +525,7 @@
 				68F2130818D7DE5C004402B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68F2130918D7DE5C004402B4 /* Build configuration list for PBXNativeTarget "testapp002Tests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +534,7 @@
 				68F2130B18D7DE5C004402B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

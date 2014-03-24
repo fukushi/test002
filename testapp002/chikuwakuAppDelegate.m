@@ -18,8 +18,17 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible];
+    
+    videoListViewController = [[chikuwakuVideoListViewController alloc] init];
+    [self.window addSubview:videoListViewController.view];
     [self.window makeKeyAndVisible];
+    
+    self.stats = [[Stats alloc] initWithFrame:CGRectMake(20, 20, 100.0, 60.0)];
+    [self.window addSubview:self.stats];
+    
     return YES;
 }
 
